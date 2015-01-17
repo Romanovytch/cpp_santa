@@ -5,7 +5,7 @@
 // Login   <givern_f@epitech.net>
 // 
 // Started on  Sat Jan 17 10:51:47 2015 Givernaud Florian
-// Last update Sat Jan 17 11:18:30 2015 Givernaud Florian
+// Last update Sat Jan 17 12:54:30 2015 Givernaud Florian
 //
 
 #include <string>
@@ -26,4 +26,9 @@ Teddy::~Teddy()
 void		Teddy::isTaken()
 {
   std::cout << "gra hu" << std::endl;
+}
+
+std::string	Teddy::getTitle()
+{
+  return (this->_title);
 }
